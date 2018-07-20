@@ -29,7 +29,7 @@ Summary
 1. Ctrl + N
 2. Click "Parallel on Local Host"
 3. Set "Compute Processes: " to 8 (depends on system availability/specs)
-![alt text](./New_Sim.png "New Simu2lation Setup")
+![alt text](./New_sim.png "New Simu2lation Setup")
 4. Click "OK"
 5. Save simulation
 
@@ -111,16 +111,17 @@ On all other parts leave all options on the defaults. Select okay
 6. Right click on Geometry > Operations > Subtract and select "Rename"
     * Subtract -> "Rotate"
     * Subtract2 -> "Fluid"
-7.
+7. Right click Geometry > Parts > Rotate and select "Assign Parts to Regions..."
+![alt text](./Assign.png "New CAD Model")
+8. Select "Create a Boundary for Each Part Surface"
+9. Repeat for Fluid
+10. Right click Regions > Region and rename to "Rotate"
+11. Right click Regions > Region 2 and rename to "Fluid"
+![alt text](./Name_assign.png "New CAD Model")
 
-* Motion too
-  * Create all Geometry
-  * Name all parts and surfaces
-  * New geometry parts
-  * Subtractions (under Geometry>operations>create subtract)
-  * Assign parts to region ( for subtracts)
-* Designate boundary conditions and interfaces
 
+
+### Designate Boundary Conditions and Interfaces
 
 
 
