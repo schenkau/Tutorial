@@ -29,7 +29,7 @@ Summary
 1. Ctrl + N
 2. Click "Parallel on Local Host"
 3. Set "Compute Processes: " to 8 (depends on system availability/specs)
-![alt text](./New_sim.png "New Simu2lation Setup")
+![alt text](./New_Sim.png "New Simu2lation Setup")
 4. Click "OK"
 5. Save simulation
 
